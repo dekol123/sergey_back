@@ -10,8 +10,8 @@ import { RegisterOfCardsService } from './register-of-cards.service';
   }
 })
 
-@ApiTags('Register of cards')
-@Controller('register-of-cards')
-export class RegisterOfCardsController implements CrudController<RegisterOfCards>{
+@ApiTags('Reestr-of sportmens')
+@Controller('sport-cards-reestr')
+export class SportCardsReestr implements CrudController<RegisterOfCards>{
   constructor(public service: RegisterOfCardsService) {}
 }

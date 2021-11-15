@@ -4,7 +4,7 @@ import { RegisterOfCards } from 'src/register-of-cards/entities/register-of-card
 import { Column, Entity, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 
 
-@Entity('arrivals')
+@Entity('sport_arrivals')
 export class Arrivals {
     @PrimaryGeneratedColumn()
     id: number;

@@ -19,8 +19,8 @@ import { ComplexOfServices } from './entities/complex-of-services.entity';
   }
 })
 
-@ApiTags('Complex of services')
-@Controller('complex-of-services')
-export class ComplexOfServicesController implements CrudController<ComplexOfServices> {
+@ApiTags('Sport complex of services')
+@Controller('sport-complex-of-services')
+export class SportComplexOfServicesController implements CrudController<ComplexOfServices> {
   constructor(public service: ComplexOfServicesService) {}  
 }

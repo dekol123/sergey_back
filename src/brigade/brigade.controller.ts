@@ -18,8 +18,8 @@ import { Brigade } from './entities/brigade.entity';
   }
 })
 
-@ApiTags('Brigade')
-@Controller('brigade')
-export class BrigadeController implements CrudController<Brigade>{
+@ApiTags('Sport brigade')
+@Controller('sport_brigade')
+export class SportController implements CrudController<Brigade>{
   constructor(public service: BrigadeService) {}  
 }

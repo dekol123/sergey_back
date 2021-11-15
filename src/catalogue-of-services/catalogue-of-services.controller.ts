@@ -23,8 +23,8 @@ import { CatalogueOfServices } from './entities/сatalogue-of-services.entity';
   }
 })
 
-@ApiTags('Catalogue of services')
-@Controller('catalogue-of-services')
-export class CatalogueOfServicesController implements CrudController<CatalogueOfServices> {
+@ApiTags('Sport catalogue of services')
+@Controller('sport-catalogue-of-services')
+export class SportCatalogueOfServicesController implements CrudController<CatalogueOfServices> {
   constructor(public service: CatalogueOfServicesService) {}  
 }
