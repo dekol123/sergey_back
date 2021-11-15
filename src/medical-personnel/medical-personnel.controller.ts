@@ -11,7 +11,7 @@ import { MedicalPersonnel } from './entities/medical-personnel.entity';
 })
 
 @ApiTags('Sport medical personnel')
-@Controller('sport-medical-personnel')
+@Controller('sport_medical_personnel')
 export class SportMedicalPersonnelController implements CrudController<MedicalPersonnel>{
   constructor(public service: MedicalPersonnelService) {}
 }

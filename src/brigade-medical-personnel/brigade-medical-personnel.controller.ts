@@ -11,7 +11,7 @@ import { BrigadeMedicalPersonnel } from './entities/brigade-medical-personnel.en
 })
 
 @ApiTags('Sport brigade of medical personnel')
-@Controller('sport-brigade-medical-personnel')
+@Controller('sport_brigade_medical_personnel')
 export class SportBrigadeMedicalPersonnelController implements CrudController<BrigadeMedicalPersonnel>{
   constructor(public service: BrigadeMedicalPersonnelService) {}
 }

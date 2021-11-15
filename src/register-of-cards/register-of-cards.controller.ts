@@ -11,7 +11,7 @@ import { RegisterOfCardsService } from './register-of-cards.service';
 })
 
 @ApiTags('Reestr-of sportmens')
-@Controller('sport-cards-reestr')
+@Controller('sport_cards_reestr')
 export class SportCardsReestr implements CrudController<RegisterOfCards>{
   constructor(public service: RegisterOfCardsService) {}
 }

@@ -11,7 +11,7 @@ import { ComplainsSuggestions } from './entities/complains-suggestions.entity';
 })
 
 @ApiTags('Complains suggestions')
-@Controller('complains-suggestions')
+@Controller('complains_suggestions')
 export class ComplainsSuggestionsController implements CrudController<ComplainsSuggestions>{
   constructor(public service: ComplainsSuggestionsService) {}
 }

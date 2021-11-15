@@ -11,7 +11,7 @@ import { Departments } from './entities/departments.entity';
 })
 
 @ApiTags('Sport departments')
-@Controller('sport-departments')
+@Controller('sport_departments')
 export class SportDepartmentsController implements CrudController<Departments>{
   constructor(public service: DepartmentsService) {}  
 }

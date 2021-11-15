@@ -20,7 +20,7 @@ import { ComplexOfServices } from './entities/complex-of-services.entity';
 })
 
 @ApiTags('Sport complex of services')
-@Controller('sport-complex-of-services')
+@Controller('sport_complex_of_services')
 export class SportComplexOfServicesController implements CrudController<ComplexOfServices> {
   constructor(public service: ComplexOfServicesService) {}  
 }
