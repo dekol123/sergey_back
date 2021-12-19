@@ -23,10 +23,6 @@ export class Patients {
     @Column()
     address: string;
 
-    @ApiProperty()
-    @Column()
-    contacts: string;
-
     @ManyToMany(type => MedicalPersonnel, medicalPersonnel => medicalPersonnel.patients)
     @JoinTable()
     medicalPersonnel: MedicalPersonnel[];    

@@ -2,7 +2,7 @@ import { ApiProperty } from '@nestjsx/crud/lib/crud';
 import { Column, Entity, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 import { Brigade } from '../../sport_brigade/entities/sport_brigade.entity'
 
-@Entity('sportBrigadeMedicalPersonnel')
+@Entity('sport_brigade_medical_personnel')
 export class BrigadeMedicalPersonnel {
     @PrimaryGeneratedColumn()
     id: number;
